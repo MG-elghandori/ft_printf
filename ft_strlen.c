@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: moel-gha <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: moel-gha <moel-gha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 15:45:40 by moel-gha          #+#    #+#             */
-/*   Updated: 2023/11/06 15:47:22 by moel-gha         ###   ########.fr       */
+/*   Updated: 2023/12/02 18:10:17 by moel-gha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ size_t	ft_strlen(const char *theString)
 
 	i = 0;
 	while (theString[i])
-	{
 		i++;
-	}
 	return (i);
 }
