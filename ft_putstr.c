@@ -5,7 +5,7 @@ int ft_putstr(char *c)
 	int i;
 	i = 0;
 	if (!c)
-		return ft_putstr("(null)");
+		return (write(1, "(null)", 6));
 	while(c[i])
 	{
 		write(1,&c[i],1);
