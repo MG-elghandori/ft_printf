@@ -3,13 +3,15 @@ ft_putchar.c \
 ft_putnbr.c  \
 ft_putstr.c \
 ft_strlen.c \
-ft_hexadecimal.c
+ft_hexadecimal.c \
+
 
 NAME = libftprintf.a 
 
 
 OBJ = $(SRC:.c=.o)
 CFLAGG = -Wall -Wextra -Werror
+CC = cc
 
 all : $(NAME)
 
