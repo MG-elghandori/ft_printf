@@ -1,7 +1,5 @@
-#include "ft_printf.h"
-
-int main()
-{
+// int main()
+// {
 
 //ft_printf("salut" "cv");//salutcv
 //++++++
@@ -24,7 +22,12 @@ int main()
 //++++++
     //printf ("-%d-\n", ft_printf("%%%"));//%-1-%                                          
     //printf("-%d-", printf("%%%"));//%-1-%
-
+//+++++
+    //printf("%d\n", ft_printf("abcdef%"));//abcdef6
+    //printf("%d\n", printf("abcdef%"));//abcdef6
+//+++++
+    //printf("%d\n", ft_printf("abcdef%s"));
+    //printf("%d\n", printf("abcdef%s"));
 //===============c:
 // int a = printf("rslt:%c,%c\n",'t','f');
 // int b = ft_printf("rslt:%c,%c\n",'t','f');
@@ -132,5 +135,5 @@ int main()
 // ft_printf(" %x ", -101);//ffffff9b
 // ft_printf(" %x ", INT_MIN);//80000000
 // ft_printf(" %x ", LONG_MAX);//ffffffff
-
-}
+// }
+// printf("abcd%")

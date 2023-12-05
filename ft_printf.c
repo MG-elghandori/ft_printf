@@ -6,7 +6,7 @@
 /*   By: moel-gha <moel-gha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 11:40:47 by moel-gha          #+#    #+#             */
-/*   Updated: 2023/12/04 13:12:59 by moel-gha         ###   ########.fr       */
+/*   Updated: 2023/12/05 08:52:41 by moel-gha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,9 @@ static int	handle_format(char format, va_list ar)
 	else if (format == 'u')
 		count += ft_putnbr(va_arg(ar, unsigned int));
 	else if (format == 'x')
-		count += ft_hexadecimal((unsigned int)va_arg(ar, void *), 0);
+		count += ft_hexadecimal(va_arg(ar, unsigned int), 0);
 	else if (format == 'X')
-		count += ft_hexadecimal((unsigned int)va_arg(ar, void *), 1);
+		count += ft_hexadecimal(va_arg(ar, unsigned int), 1);
 	else
 		count += ft_putchar(format);
 	return (count);
