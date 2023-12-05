@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: moel-gha <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: moel-gha <moel-gha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 11:42:10 by moel-gha          #+#    #+#             */
-/*   Updated: 2023/12/04 11:42:15 by moel-gha         ###   ########.fr       */
+/*   Updated: 2023/12/05 14:54:34 by moel-gha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@
 # include <string.h>
 # include <unistd.h>
 
-int		ft_printf(const char *str, ...);
-size_t	ft_strlen(const char *theString);
+int		ft_printf(const char *format, ...);
 int		ft_putchar(char c);
 int		ft_putnbr(long long n);
 int		ft_putstr(char *c);
