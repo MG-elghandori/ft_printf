@@ -15,7 +15,7 @@ CC = cc
 all : $(NAME)
 
 $(NAME) : $(OBJ)
-			ar r $(NAME) $(OBJ)
+			ar r $(NAME) $?
 
 clean :
 			rm -f $(OBJ)
